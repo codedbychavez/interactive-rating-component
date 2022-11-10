@@ -1,0 +1,42 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(217, 12%, 63%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.page-container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+// Extensible styles
+.bubble {
+  
+}
+
+.card {
+  background-color: hsl(213, 19%, 18%);
+}
